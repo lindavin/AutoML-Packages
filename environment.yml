@@ -1,0 +1,21 @@
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pip
+  - numpy
+  - scipy
+  - scikit-learn
+  - pandas
+  - joblib
+  - pytorch
+  - jupyter
+  - pip:
+    - deap
+    - update_checker
+    - tqdm
+    - stopit
+    - xgboost
+    - tpot
+    - auto-sklearn
+    - gamma
